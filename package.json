@@ -1,0 +1,20 @@
+{
+  "name" : "fflush",
+  "version" : "v0.1.0",
+  "scripts" : {
+    "preinstall" : "node-waf configure && node-waf build",
+    "preuninstall" : "rm -rf build/*"
+  },
+  "main" : "./build/default/fflush",
+
+  "description" : "fflush(3)",
+  "homepage" : "https://github.com/tmm1/node-fflush",
+  "author" : {
+    "name" : "Aman Gupta",
+    "email" : "aman@tmm1.net"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tmm1/node-fflush.git"
+  }
+}
